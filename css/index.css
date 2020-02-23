@@ -1,0 +1,37 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+:root {
+  --color-green: #50fa7b;
+}
+
+body {
+  background-color: #282a36;
+  font-family: Roboto, "Times New Roman", Times, serif;
+}
+
+header {
+  padding: 30px;
+  margin: 0px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 0 30px;
+}
+
+header nav a:hover {
+  color: var(--color-green);
+  transition: color 200ms;
+}
