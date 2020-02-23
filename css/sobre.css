@@ -78,3 +78,7 @@ li p {
   color: var(--color-green);
   transition: color 200ms;
 }
+
+.wrapper {
+  text-align: center;
+}
