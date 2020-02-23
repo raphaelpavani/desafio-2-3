@@ -82,3 +82,18 @@ li p {
 .wrapper {
   text-align: center;
 }
+
+.cards {
+  margin: 0 auto;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  border: 5px solid #f3cd00;
+  border-radius: 5%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+}
