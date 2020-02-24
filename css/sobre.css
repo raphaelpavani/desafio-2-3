@@ -144,6 +144,14 @@ li p {
   cursor: pointer;
 }
 
+.modal .maximize-modal {
+  color: black;
+  position: absolute;
+  right: 42px;
+  top: 8px;
+  cursor: pointer;
+}
+
 .modal_overlay.active {
   opacity: 1;
   visibility: visible;
