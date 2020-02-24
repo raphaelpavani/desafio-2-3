@@ -163,3 +163,11 @@ iframe {
   position: absolute;
   top: 5%;
 }
+
+.maximize {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+}
